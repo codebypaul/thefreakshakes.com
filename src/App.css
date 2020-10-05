@@ -8,31 +8,51 @@
   --bloodRed: #8a0303;
   --lightGrey: #a9a9a9;
   --darkGrey: #494949;
-  --mainGradient: linear-gradient(to bottom right, var(--bloodRed), #000000)
-}
-/*
-@font-face {
-  font-family: ;
-  src: url(Oswald-Medium.ttf);
+  --pastelPink: #FFB7B2;
+  --pastelBlue: #CBE4F9;
+  --mainGradient: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  --pastelGradient: linear-gradient(to bottom right, var(--pastelPink), var(--pastelBlue));
 }
 @font-face {
-  font-family: Permanent-Marker;
-  src: url(PermanentMarker-Regular.ttf);
+  font-family: ZCOOLKuaiLe;
+  src: url(ZCOOLKuaiLe-Regular.ttf);
 }
-*/
+@font-face {
+  font-family:Sacramento;
+  src: url(Sacramento-Regular.ttf);
+}
+@font-face{
+  font-family:ClickerScript;
+  src: url(ClickerScript-Regular.ttf);
+}
 body {
-  font-family:'Comic Sans MS'  !important;
+  font-family: ClickerScript !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
-.text-title {
-  font-family:  Arial !important;
-  letter-spacing: 0.3em;
-  text-transform: uppercase ;
+
+.text-sacramento {
+  font-family:  Sacramento !important;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.text-clickerScript{
+  font-family: ClickerScript !important;
+  font-size: 2rem;
+}
+.text-zcool{
+  font-family: ZCOOLKuaiLe !important;
+}
+.text-pink{
+  color: var(--pastelPink);
 }
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--pastelBlue);
 }
 .text-bright {
   color: var(--lightBlue);
+}
+.freakShake{
+  width: 40rem;
+  overflow-x: hidden;
 }

@@ -3,12 +3,12 @@ import {Switch, Route } from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar'
-import ProductList from './components/ProductList'
 import Details from './components/Details'
 import Cart from './components/Cart'
 import Default from './components/Default'
 import Home from './components/Home'
-
+import Staff from './components/Staff'
+import About from './components/About'
 
 class App extends Component {
   render() {
@@ -16,11 +16,12 @@ class App extends Component {
       <React.Fragment>
         <Navbar></Navbar>
         <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route path="/details" component={Details}></Route>
-          <Route path="/cart" component={Cart}></Route>
-          <Route path="/store" component={ProductList}></Route>
-          <Route component={Default}></Route>
+          <Route path="/details" component={Details}/>
+          <Route path='/staff' component={Staff}/>
+          <Route path='/about' component={About}/>
+          <Route path="/cart" component={Cart}/>
+          <Route exact path="/" component={Home}/>
+          <Route component={Default}/>
         </Switch>
       </React.Fragment>
     );

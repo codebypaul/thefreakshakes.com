@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
+import ProductList from './ProductList'
 import CoverCard from './CoverCard'
-import ShopBar from './ShopBar'
-
 
 export default class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <ShopBar></ShopBar>
+                <CoverCard/>
+                <ProductList/>
             </React.Fragment>
         )
     }

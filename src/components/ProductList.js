@@ -2,15 +2,18 @@ import React, { Component } from 'react'
 import Product from'./Product'
 import Title from './Title'
 import {ProductConsumer} from '../context'
-
+import styled from 'styled-components'
 
 export default class ProductList extends Component {
     render(){
         return (
             <React.Fragment>
                 <div className="py-5">
+                    <TitleBar className="container-fluid d-flex justify-content-center row bg-light">
+                        <Title name="Freak" title="Shakes"></Title>
+                    </TitleBar>
                     <div className="container">
-                        <Title name="our" title="products"></Title>
+                        
                         <div className="row">
                             <ProductConsumer>
                                 {value => {
@@ -26,3 +29,6 @@ export default class ProductList extends Component {
         )
     }
 }
+const TitleBar = styled.div`
+    width:100vw;
+`
