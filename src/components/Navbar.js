@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
-import {ButtonContainer} from './Button'
 import NavItems from './NavItems'
 
 export default class Navbar extends Component {

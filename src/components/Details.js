@@ -8,7 +8,7 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
                 {(value)=>{
-                    const {id,img,info,title,inCart} = value.detailProduct
+                    const {img,info,title} = value.detailProduct
                     return (
                         <div className="container py-5">
                             {/* title */}
