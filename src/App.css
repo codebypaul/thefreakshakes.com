@@ -52,6 +52,9 @@ body {
 .text-bright {
   color: var(--lightBlue);
 }
+.img-container{
+  height: 100vh;
+}
 .freakShake{
   width: 40rem;
   overflow-x: hidden;
