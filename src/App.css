@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+:root {
+  --mainBlue:  #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --crimsonRed: #dc143c;
+  --bloodRed: #8a0303;
+  --lightGrey: #a9a9a9;
+  --darkGrey: #494949;
+  --mainGradient: linear-gradient(to bottom right, var(--bloodRed), #000000)
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+@font-face {
+  font-family: ;
+  src: url(Oswald-Medium.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Permanent-Marker;
+  src: url(PermanentMarker-Regular.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*/
+body {
+  font-family:'Comic Sans MS'  !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
 }
-
-.App-link {
-  color: #61dafb;
+.text-title {
+  font-family:  Arial !important;
+  letter-spacing: 0.3em;
+  text-transform: uppercase ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
 }
