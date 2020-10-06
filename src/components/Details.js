@@ -29,7 +29,7 @@ export default class Details extends Component {
                                     </p>
                                     <p className="text-muted text-clickerScript">{info}</p>
                                     <div>
-                                        <Link to='/store'>
+                                        <Link to='/'>
                                             <ButtonContainer>
                                                 see more shakes
                                             </ButtonContainer>
