@@ -9,7 +9,7 @@ export default class Product extends Component {
         const {id, title, img} = this.props.product
         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-4 my-3">
-                <CardContainer className="card text-white">
+                <CardContainer className="card">
                     <ProductConsumer>
                         {(value) => (
                             <div className="img-container p-5" onClick={() => value.handleDetail(id)}>
@@ -79,7 +79,7 @@ const ProductWrapper =styled.div`
     transition: all 1s linear;
 }
 .img-container:hover .card-img-top{
-    transform: sclae(1.2);
+    transform: scale(1.2);
 }
 .cart-btn{
     position: absolute;
