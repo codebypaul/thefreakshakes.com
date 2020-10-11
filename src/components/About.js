@@ -4,7 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <div className="col-11 col-md-7 col-lg-7 mx-auto p-5">
+                <div className="col-sm-4 col-md-5 mx-auto p-5">
                     <div className="card  m-5">
                         <div className="card-header">
                             <h1>Freak Shakes </h1>
