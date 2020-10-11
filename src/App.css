@@ -14,8 +14,8 @@
   --pastelGradient: linear-gradient(to bottom right, var(--pastelPink), var(--pastelBlue));
 }
 @font-face {
-  font-family: ZCOOLKuaiLe;
-  src: url(ZCOOLKuaiLe-Regular.ttf);
+  font-family: Cormorant;
+  src: url(Cormorant.ttf);
 }
 @font-face {
   font-family:Sacramento;
@@ -40,8 +40,8 @@ body {
   font-family: ClickerScript !important;
   font-size: 2rem;
 }
-.text-zcool{
-  font-family: ZCOOLKuaiLe !important;
+.text-cormorant{
+  font-family: Cormorant !important;
 }
 .text-pink{
   color: var(--pastelPink);
@@ -51,8 +51,7 @@ body {
 }
 .text-bright {
   color: var(--lightBlue);
+  font-size: 4rem;
 }
-.home-img-container{
-  height: 90vh;
-}
+
 

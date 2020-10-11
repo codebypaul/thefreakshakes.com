@@ -11,23 +11,25 @@ export default class Details extends Component {
                     const {img,info,title} = value.detailProduct
                     return (
                         <div className="container py-5">
-                            {/* title */}
+                            {/* title
                             <div className="row">
-                                <div className="col-10 mx-auto text-center text-slanted text-blue text-zcool my-5">
-                                    <h1>{title}</h1>
+                                <div className="col-10 mx-auto text-center text-cormorant">
+                                    
                                 </div>
                             </div>
+                             */}
                             {/* end title */}
                             {/* product info */}
                             <div className="row">
-                                <div className="col-10 mx-auto col-md-6 my-3">
+                                <div className="col-10 mx-auto col-md-6 p-5 m-3">
                                     <img src={img} className="img-fluid" alt="product"></img>
                                 </div>
                                 <div className="col-10 mx-auto col-md-6 my-3">
+                                    <h1 className="text-clickerScript text-bright">{title}</h1>
                                     <p className="text-capitalize text-sacramento font-weight-bold mt-3 mb-0">
-                                        some info about the product :
+                                        this shakes build :
                                     </p>
-                                    <p className="text-muted text-clickerScript">{info}</p>
+                                    <p className="text-muted text-cormorant">{info}</p>
                                     <div>
                                         <Link to='/'>
                                             <ButtonContainer>
